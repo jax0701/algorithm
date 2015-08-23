@@ -18,5 +18,4 @@ void main(void){
    for(j=0; j<length; j++){
 	   printf("%d ",alist[j]);
    }
-   printf("%d\n", alist);
 }
