@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-void printArray(int A[], int size){
-		int i;
-		for(i=0;i<size;i++)
-			printf("%d ",A[i]);
-		printf("\n");
+void printArray(int A[], int len){
+        int i;
+	for(i=0;i<len;i++) 
+	  printf("%d ",A[i]);
+	printf("\n");
 }
 
 void quickSort(int alist[], int len){
@@ -54,7 +54,7 @@ void quickSort(int alist[], int len){
 }
 
 void main(void){
-	int alist[]={32,54,2,1,23,41,56342,123,2,33,34,5,2,87};
+	int alist[]={32,54,2,1,23,41,56342,123,3,33,34,5,2,87};
 	int len=sizeof(alist)/sizeof(alist[0]);
 	quickSort(alist,len);
 				        
