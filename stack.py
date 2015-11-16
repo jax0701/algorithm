@@ -1,4 +1,5 @@
-"""Notice that the definition of the Stack class is imported from the pythonds module."""
+"""The pythonds module contains implementations of all data structures"""
+
 class Stack:
     def __init__(self):
         self.items = []
