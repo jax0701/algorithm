@@ -17,4 +17,4 @@ def hotPotato(namelist, num):
 
 namelist = ['Jax', 'Brain', 'Edgar', 'James', 'Eddie', 'David', 'Joe', 'Victor', 'Paul', 'Alice', 'Jinah', 'Ryan', 'Jason', 'Nolla', 'Olivia', 'Austin', 'Chelsy']
 
-hotPotato(namelist,11)
+hotPotato(namelist,7)
